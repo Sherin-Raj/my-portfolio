@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sherin Portfolio</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+        <span>SHERIN</span>
+      </div>
+      <div class="links">
+        <a href="#home" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
+        <a href="#about" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About</a>
+        <a href="#skills" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Skills</a>
+        <a href="#Projects" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Projects</a>
+        <a href="#blogs" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Blogs</a>
+        <a href="#contact" class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Contact Us</a>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#home" onclick="cancel()">Home</a>
+        <a href="#about" onclick="cancel()">About</a>
+        <a href="#skills" onclick="cancel()">Skills</a>
+        <a href="#Projects" onclick="cancel()">Projects</a>
+        <a href="#blogs" onclick="cancel()">Blogs</a>
+        <a href="#contact" onclick="cancel()">Contact Us</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="main-container">
+      <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+        <img src="SE.png" alt="Profile Image" />
+      </div>
+      <div class="content">
+        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+          Hey I'm <span>SHERIN RAJ</span>
+        </h1>
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+          I'm a <span></span>
+        </div>
+<p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000" style="font-size: 16px;">
+  I’m a passionate developer skilled in Node.js, NestJS, JavaScript, TypeScript, and WebSockets.  
+  I create fast, scalable backend systems using databases like MySQL, PostgreSQL, and MongoDB.  
+  I love writing clean code, solving problems, and learning new tech every day.  
+  Working well with teams, I focus on building real solutions that make a difference.  
+  Let’s build something great together!
+</p>
+
+
+        <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+          <a href="https://github.com/Sherin-Raj" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+          <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/sherin-raj-a44332223/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+          <a href="Sherin_Raj_Resume.pdf" download>
+            <button><i class="fa-solid fa-download"></i> Download CV</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="about">
+  <div class="container" data-aos="fade-up">
+    <h2>About Me</h2>
+
+    <p class="intro-paragraph" style="font-size: 20px;" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
+      <i class="fa-solid fa-code" style="color: #007bff; margin-right: 10px;"></i>
+      I'm a backend developer with hands-on experience in building APIs, real-time systems, and server-side logic using Node.js and NestJS. I’ve worked with relational and NoSQL databases like MySQL, PostgreSQL, and MongoDB, and have also implemented WebSocket-based features for real-time updates.
+    </p>
+
+    <p class="intro-paragraph" style="font-size: 20px;" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+      <i class="fa-solid fa-laptop-code" style="color: #28a745; margin-right: 10px;"></i>
+      I take pride in writing clean, maintainable code and love solving technical challenges that make applications faster and more reliable. My skillset also includes JavaScript, TypeScript, RESTful APIs, and basic cloud deployment practices.
+    </p>
+
+    <p class="intro-paragraph" style="font-size: 20px;" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="800">
+      <i class="fa-solid fa-rocket" style="color: #e83e8c; margin-right: 10px;"></i>
+      I’m a fast learner who enjoys exploring new technologies and improving continuously. Whether it’s debugging complex issues or learning a new tool, I embrace every challenge with curiosity. Currently, I’m looking for opportunities where I can grow as a developer, contribute meaningfully, and be part of an innovative team.
+    </p>
+
+  </div>
+</section>
+
+
+
+ <section id="skills">
+  <div class="container" data-aos="fade-up" style="text-align: center;">
+    <h2 style="color: black;">Skills</h2>
+
+    <div class="skills-boxes" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px">
+
+    <div class="skill-box" data-aos="fade-up" data-aos-delay="100" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4;">
+  <i class="fa-brands fa-node-js" style="font-size: 36px; color: #3c873a; flex-shrink: 0;"></i>
+  <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+    Node.js & NestJS
+  </p>
+</div>
+
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="200" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-solid fa-database" style="font-size: 36px; color: #6f42c1; flex-shrink: 0;"></i>
+      <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+MySQL, MongoDB, PostgreSQL</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="300" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-solid fa-network-wired" style="font-size: 36px; color: #007bff; flex-shrink: 0;"></i>
+     <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+REST APIs & WebSocket</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="400" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-aws" style="font-size: 36px; color: #ff9900; flex-shrink: 0;"></i>
+        <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+Basics of AWS</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="500" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-html5" style="font-size: 36px; color: #e34f26; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+HTML, CSS & Tailwind CSS</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="600" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-js" style="font-size: 36px; color: #f7df1e; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+JavaScript & TypeScript</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="700" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-solid fa-toolbox" style="font-size: 36px; color: #6c757d; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+Swagger, Postman, GitHub</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="800" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-solid fa-search" style="font-size: 36px; color: #17a2b8; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+Query Tuning & DB Monitoring</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="900" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-solid fa-pen" style="font-size: 36px; color: #343a40; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+Technical Writing (Medium)</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="1000" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-linux" style="font-size: 36px; color: #f7931e; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 70px; font-size: 18px; color: black; flex-grow: 1;">
+Linux</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="Projects">
+  <div class="container" data-aos="fade-up" style="max-width: 1100px; margin: auto;">
+    <h2 class="section-title" style="text-align: center; margin-bottom: 30px;">Projects</h2>
+
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      
+      <div style="flex: 1 1 500px; border: 1px solid #ccc; border-radius: 12px; padding: 20px; box-shadow: 0 4px 8px rgb(0 0 0 / 0.1); background-color: #f5e2c6;">
+        <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.5rem; margin-bottom: 10px;">
+          <i class="fa-solid fa-question" style="color: #4a90e2;"></i> QuizCircles
+        </h3>
+        <p style="font-size: 1rem; line-height: 1.4; margin-bottom: 10px;">
+          QuizCircles is an interactive web-based quiz game designed to enhance learning through real-time multiplayer participation. Built with a modern tech stack, it focuses on responsive design and seamless user experience.
+        </p>
+        <p><strong>What I focused on:</strong></p>
+        <ul style="margin-left: 20px; list-style-type: disc; font-size: 0.95rem;">
+          <li>Contributed to frontend development using React.js and Tailwind CSS.</li>
+          <li>Ensured pixel-perfect UI consistency based on Figma design mockups.</li>
+          <li>Handled backend deployment and integrated WebSocket for real-time communication.</li>
+          <li>Managed API creation and backend logic using Nest.js and Node.js.</li>
+        </ul>
+      </div>
+
+      <div style="flex: 1 1 500px; border: 1px solid #ccc; border-radius: 12px; padding: 20px; box-shadow: 0 4px 8px rgb(0 0 0 / 0.1); background-color: #f5e2c6;">
+        <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.5rem; margin-bottom: 10px;">
+          <i class="fa-solid fa-bus" style="color: #f39c12;"></i> Voyager
+        </h3>
+        <p style="font-size: 1rem; line-height: 1.4; margin-bottom: 10px;">
+          Voyager is a real-time bus tracking system developed for schools to help staff and parents monitor student transport efficiently. It includes backend APIs, admin features, and robust documentation.
+        </p>
+        <p><strong>What I focused on:</strong></p>
+        <ul style="margin-left: 20px; list-style-type: disc; font-size: 0.95rem;">
+          <li>Built and maintained backend APIs using Nest.js and Node.js.</li>
+          <li>Integrated Swagger for API testing and documentation.</li>
+          <li>Managed deployment pipelines and build distribution processes.</li>
+          <li>Focused on modular, maintainable backend code architecture.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ <section id="blogs">
+  <div class="container" data-aos="fade-up">
+    <h2>📝 Blogs</h2>
+
+    <!-- Blog 1 -->
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; gap: 12px;">
+      <img src="API.png" alt="API Security Icon" style="width: 80px; height: 80px; object-fit: contain;" />
+      <div>
+        <h3 style="margin: 0;">Exploring Rate Limiting Techniques</h3>
+        <p style="margin: 4px 0;">
+          Learn how rate limiting protects your Node.js APIs from abuse and ensures fair usage.
+        </p>
+        <a href="https://medium.com/@sherinofficial98/exploring-rate-limiting-techniques-for-node-js-api-security-007cddd6aed0" target="_blank" rel="noopener">Read More →</a>
+      </div>
+    </div>
+
+    <!-- Blog 2 -->
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; gap: 12px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/2706/2706953.png" alt="AI Assistant Icon" style="width: 80px; height: 80px; object-fit: contain;" />
+      <div>
+        <h3 style="margin: 0;">Creating an AI Learning Assistant</h3>
+        <p style="margin: 4px 0;">
+          Build a smart assistant using NestJS and Google Generative AI for interactive learning.
+        </p>
+        <a href="https://medium.com/@sherinofficial98/creating-an-interactive-learning-assistant-with-nestjs-and-google-generative-ai-76e31e9b9602" target="_blank" rel="noopener">Read More →</a>
+      </div>
+    </div>
+
+    <!-- Blog 3 -->
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; gap: 12px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/10020/10020441.png" alt="WebSocket Icon" style="width: 80px; height: 80px; object-fit: contain;" />
+      <div>
+        <h3 style="margin: 0;">Harnessing WebSockets in NestJS</h3>
+        <p style="margin: 4px 0;">
+          Dive into real-time communication using WebSockets for live apps and dashboards.
+        </p>
+        <a href="https://medium.com/@sherinofficial98/harnessing-websockets-for-real-time-development-in-nest-js-674abcf157b2" target="_blank" rel="noopener">Read More →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+
+    function hamburg() {
+      document.querySelector(".dropdown").style.transform = "translateY(0)";
+    }
+    function cancel() {
+      document.querySelector(".dropdown").style.transform = "translateY(-100%)";
+    }
+  </script>
+</body>
+</html>
