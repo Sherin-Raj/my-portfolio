@@ -175,19 +175,22 @@ Linux</p>
 
 <section id="Projects">
   <div class="container" data-aos="fade-up" style="max-width: 1100px; margin: auto;">
-    <h2 class="section-title" style="text-align: center; margin-bottom: 30px;">Projects</h2>
+
+    <h2 class="section-title" style="text-align: center; margin-bottom: 30px; color: #6d4300; text-shadow: 0 0 10px #b27300;">
+      Projects
+    </h2>
 
     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
       
-      <div style="flex: 1 1 500px; border: 1px solid #ccc; border-radius: 12px; padding: 20px; box-shadow: 0 4px 8px rgb(0 0 0 / 0.1); background-color: #f5e2c6;">
-        <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.5rem; margin-bottom: 10px;">
-          <i class="fa-solid fa-question" style="color: #4a90e2;"></i> QuizCircles
+      <div style="flex: 1 1 500px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background-color: #f5e2c6;">
+        <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.5rem; margin-bottom: 10px; color: #4a90e2;">
+          <i class="fa-solid fa-question"></i> QuizCircles
         </h3>
-        <p style="font-size: 1rem; line-height: 1.4; margin-bottom: 10px;">
+        <p style="font-size: 1rem; line-height: 1.4; margin-bottom: 10px; color: #6d4300;">
           QuizCircles is an interactive web-based quiz game designed to enhance learning through real-time multiplayer participation. Built with a modern tech stack, it focuses on responsive design and seamless user experience.
         </p>
-        <p><strong>What I focused on:</strong></p>
-        <ul style="margin-left: 20px; list-style-type: disc; font-size: 0.95rem;">
+        <p style="color: #6d4300;"><strong>What I focused on:</strong></p>
+        <ul style="margin-left: 20px; list-style-type: disc; font-size: 0.95rem; color: #6d4300;">
           <li>Contributed to frontend development using React.js and Tailwind CSS.</li>
           <li>Ensured pixel-perfect UI consistency based on Figma design mockups.</li>
           <li>Handled backend deployment and integrated WebSocket for real-time communication.</li>
@@ -195,15 +198,15 @@ Linux</p>
         </ul>
       </div>
 
-      <div style="flex: 1 1 500px; border: 1px solid #ccc; border-radius: 12px; padding: 20px; box-shadow: 0 4px 8px rgb(0 0 0 / 0.1); background-color: #f5e2c6;">
-        <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.5rem; margin-bottom: 10px;">
-          <i class="fa-solid fa-bus" style="color: #f39c12;"></i> Voyager
+      <div style="flex: 1 1 500px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background-color: #f5e2c6;">
+        <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.5rem; margin-bottom: 10px; color: #f39c12;">
+          <i class="fa-solid fa-bus"></i> Voyager
         </h3>
-        <p style="font-size: 1rem; line-height: 1.4; margin-bottom: 10px;">
+        <p style="font-size: 1rem; line-height: 1.4; margin-bottom: 10px; color: #6d4300;">
           Voyager is a real-time bus tracking system developed for schools to help staff and parents monitor student transport efficiently. It includes backend APIs, admin features, and robust documentation.
         </p>
-        <p><strong>What I focused on:</strong></p>
-        <ul style="margin-left: 20px; list-style-type: disc; font-size: 0.95rem;">
+        <p style="color: #6d4300;"><strong>What I focused on:</strong></p>
+        <ul style="margin-left: 20px; list-style-type: disc; font-size: 0.95rem; color: #6d4300;">
           <li>Built and maintained backend APIs using Nest.js and Node.js.</li>
           <li>Integrated Swagger for API testing and documentation.</li>
           <li>Managed deployment pipelines and build distribution processes.</li>
@@ -215,49 +218,68 @@ Linux</p>
   </div>
 </section>
 
+<style>
+  @media (max-width: 768px) {
+    .email-link {
+      font-size: 0.85rem !important;
+    }
 
- <section id="blogs">
-  <div class="container" data-aos="fade-up">
-    <h2>📝 Blogs</h2>
+    .email-icon {
+      font-size: 1.4rem !important;
+    }
+  }
+</style>
+
+
+<section id="blogs">
+  <div class="container" data-aos="fade-up" style="max-width: 900px; margin: auto;">
+    <h2 style="text-align: center; margin-bottom: 30px; color: #6d4300; text-shadow: 0 0 10px #b27300;">📝 Blogs</h2>
 
     <!-- Blog 1 -->
-    <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; gap: 12px;">
-      <img src="API.png" alt="API Security Icon" style="width: 80px; height: 80px; object-fit: contain;" />
+    <div data-aos="fade-up" style="background-color: #f5e2c6; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-radius: 15px; padding: 20px; display: flex; align-items: flex-start; gap: 12px; margin-bottom: 20px;">
+      <img src="API.png" alt="API Security Icon" style="width: 100px; height: 80px; object-fit: contain; border-radius: 10px;" />
       <div>
-        <h3 style="margin: 0;">Exploring Rate Limiting Techniques</h3>
-        <p style="margin: 4px 0;">
+        <h3 style="margin: 0 0 8px; color: #6d4300;">Exploring Rate Limiting Techniques</h3>
+        <p style="margin: 0 0 12px; color: #6d4300;">
           Learn how rate limiting protects your Node.js APIs from abuse and ensures fair usage.
         </p>
-        <a href="https://medium.com/@sherinofficial98/exploring-rate-limiting-techniques-for-node-js-api-security-007cddd6aed0" target="_blank" rel="noopener">Read More →</a>
+        <a href="https://medium.com/@sherinofficial98/exploring-rate-limiting-techniques-for-node-js-api-security-007cddd6aed0" target="_blank" rel="noopener" style="color: #b27300; font-weight: 600; text-decoration: none;">
+          Read More →
+        </a>
       </div>
     </div>
 
     <!-- Blog 2 -->
-    <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; gap: 12px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/2706/2706953.png" alt="AI Assistant Icon" style="width: 80px; height: 80px; object-fit: contain;" />
+    <div data-aos="fade-up" data-aos-delay="100" style="background-color: #f5e2c6; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-radius: 15px; padding: 20px; display: flex; align-items: flex-start; gap: 12px; margin-bottom: 20px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/2706/2706953.png" alt="AI Assistant Icon" style="width: 80px; height: 80px; object-fit: contain; border-radius: 10px;" />
       <div>
-        <h3 style="margin: 0;">Creating an AI Learning Assistant</h3>
-        <p style="margin: 4px 0;">
+        <h3 style="margin: 0 0 8px; color: #6d4300;">Creating an AI Learning Assistant</h3>
+        <p style="margin: 0 0 12px; color: #6d4300;">
           Build a smart assistant using NestJS and Google Generative AI for interactive learning.
         </p>
-        <a href="https://medium.com/@sherinofficial98/creating-an-interactive-learning-assistant-with-nestjs-and-google-generative-ai-76e31e9b9602" target="_blank" rel="noopener">Read More →</a>
+        <a href="https://medium.com/@sherinofficial98/creating-an-interactive-learning-assistant-with-nestjs-and-google-generative-ai-76e31e9b9602" target="_blank" rel="noopener" style="color: #b27300; font-weight: 600; text-decoration: none;">
+          Read More →
+        </a>
       </div>
     </div>
 
     <!-- Blog 3 -->
-    <div style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; gap: 12px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/10020/10020441.png" alt="WebSocket Icon" style="width: 80px; height: 80px; object-fit: contain;" />
+    <div data-aos="fade-up" data-aos-delay="200" style="background-color: #f5e2c6; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-radius: 15px; padding: 20px; display: flex; align-items: flex-start; gap: 12px; margin-bottom: 20px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/10020/10020441.png" alt="WebSocket Icon" style="width: 80px; height: 80px; object-fit: contain; border-radius: 10px;" />
       <div>
-        <h3 style="margin: 0;">Harnessing WebSockets in NestJS</h3>
-        <p style="margin: 4px 0;">
+        <h3 style="margin: 0 0 8px; color: #6d4300;">Harnessing WebSockets in NestJS</h3>
+        <p style="margin: 0 0 12px; color: #6d4300;">
           Dive into real-time communication using WebSockets for live apps and dashboards.
         </p>
-        <a href="https://medium.com/@sherinofficial98/harnessing-websockets-for-real-time-development-in-nest-js-674abcf157b2" target="_blank" rel="noopener">Read More →</a>
+        <a href="https://medium.com/@sherinofficial98/harnessing-websockets-for-real-time-development-in-nest-js-674abcf157b2" target="_blank" rel="noopener" style="color: #b27300; font-weight: 600; text-decoration: none;">
+          Read More →
+        </a>
       </div>
     </div>
 
   </div>
 </section>
+
 <!-- Contact Section -->
 <section id="contact" style="padding: 80px 20px;">
   <div class="container" data-aos="fade-up"  data-aos-duration="2000" style="max-width: 900px; margin: 0 auto; padding: 0 20px; text-align: center; color: #6d4300;">
@@ -266,9 +288,9 @@ Linux</p>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; justify-items: center;">
       
       <div data-aos="fade-right" style="background: #f1d1a4; padding: 20px 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 15px; max-width: 400px; width: 100%;">
-        <i class="fas fa-envelope" style="font-size: 1.8rem; color: #b27300;"></i>
-        <a href="mailto:sherinofficial98@gmail.com" style="font-size: 1.05rem; font-weight: 500; color: #6d4300; text-decoration: none;">sherinofficial98@gmail.com</a>
-      </div>
+  <i class="fas fa-envelope email-icon" style="font-size: 1.8rem; color: #b27300;"></i>
+  <a href="mailto:sherinofficial98@gmail.com" class="email-link" style="font-size: 1.05rem; font-weight: 500; color: #6d4300; text-decoration: none;">sherinofficial98@gmail.com</a>
+</div>
 
       <div data-aos="fade-left" style="background: #f1d1a4; padding: 20px 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 15px; max-width: 400px; width: 100%;">
         <i class="fab fa-linkedin" style="font-size: 1.8rem; color: #b27300;"></i>
